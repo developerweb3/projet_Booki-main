@@ -1,0 +1,413 @@
+.polaroid {
+    width: 50%;
+    display: flex;
+    border: 2px;
+}
+
+.vieuxport {
+    width: 50%;
+    margin: 5px;
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+
+}
+/*retirer margin vieuxport et polaroid2*/
+
+.vieuxport img {
+    object-fit: cover;
+    width: 100%;
+    height: 322px;
+    border-radius: 20px 20px 0px 0px;    
+}
+
+.polaroid2 {
+    margin: 5px;
+    width: 50%;
+}
+
+.photo2-3 {
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+    height: 183px;
+
+}
+
+.photo2-3 img {
+    width: 100%;
+    height: 111px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;}
+
+
+
+
+@media (max-width: 992px) {
+    
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+footer {
+    /* flex-shrink: 0;*/
+    display: flex;
+    width: 100%;
+}
+
+
+.blocfooterservices {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 20px ;
+    background-color: #F2F2F2;
+}
+
+ul {
+    list-style: none;
+    text-decoration-style: none;
+    padding-left: 0%; 
+}
+
+h3 {
+    padding: 5%;
+}
+
+li {
+    margin: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+}
+
+.polaroid {
+    width: 100%;
+    display: flex;
+    border: 2px;
+}
+
+.vieuxport {
+    width: 50%;
+    height: 385px;
+    margin: 5px;
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+}
+
+
+/*.margin-b {margin-bottom: 20%; }*/
+
+.vieuxport img {
+    object-fit: cover;
+    width: 100%;
+    height: 312px;
+    border-radius: 20px 20px 0px 0px;    
+}
+
+.polaroid2 {
+    margin: 5px;
+    width: 50%;
+}
+
+.photo2-3 {
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+    height: 183px;
+
+}
+
+.photo2-3 img {
+    width: 100%;
+    height: 111px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+footer {
+    /* flex-shrink: 0;*/
+    display: flex;
+    width: 100%;
+}
+
+
+.blocfooterservices {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 20px ;
+    background-color: #F2F2F2;
+}
+
+ul {
+    list-style: none;
+    text-decoration-style: none;
+    padding-left: 0%; 
+}
+
+h4 {
+    padding: 5%;
+}
+
+h3 {
+    padding: 5%;
+}
+
+li {
+    margin: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.572);
+}
+}
+
+@media screen and (max-width: 768px) {
+
+    .polaroid {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+.blocfooterservices {        
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 20px ;
+    background-color: #F2F2F2;
+}
+ul {
+    list-style: none;
+    text-decoration-style: none;
+    padding-left: 0%; 
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.572);
+}
+
+li {
+    margin: 10px;
+}
+
+h3 {
+    padding: 5%;
+}
+.polaroid {
+    width: 100%;
+    display: flex;
+    border: 2px;
+}
+
+.vieuxport {
+    width: 100%;
+    height: 385px;
+    margin: 5px;
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+}
+
+/*.margin-b {margin-bottom: 20%; }*/
+
+.vieuxport img {
+    object-fit: cover;
+    width: 100%;
+    height: 312px;
+    border-radius: 20px 20px 0px 0px;    
+}
+
+.polaroid2 {
+    margin: 5px;
+    width: 100%;
+}
+
+.photo2-3 {
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+    height: 183px;
+}
+
+.photo2-3 img {
+    width: 100%;
+    height: 111px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.photo2-3-4 {
+        box-shadow: 3px 2px 2px #F2F2F2;
+        border-radius: 20px;
+        height: 175px;    
+}
+
+.container_p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+    
+.photo2-3-4 img {
+        width: 100%;
+        height: 99.5px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+
+}
+
+.photo2-4 {
+    
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+    height: 185px;
+    width: 100%;
+
+
+}
+
+.photo2-4 img {
+    width: 100%;
+    height: 119.5px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.photo2-5 {
+
+    box-shadow: 3px 2px 2px #F2F2F2;
+    border-radius: 20px;
+    height: 185px;
+
+}
+
+.photo2-5 img {
+    width: 100%;
+    height: 112px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.polaroid2 > .photo2-4 {
+    margin-bottom: 15Px;
+}
+}
+
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+    
+    footer {
+        /* flex-shrink: 0;*/
+        display: flex;
+        width: 100%;
+    }
+    
+    
+    .blocfooterservices {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        font-size: 20px ;
+        background-color: #F2F2F2;
+    }
+    
+    ul {
+        list-style: none;
+        text-decoration-style: none;
+        padding-left: 0%; 
+    }
+    
+    h4 {
+        padding: 5%;
+    }
+    
+    li {
+        margin: 10px;
+    }
+    
+    
+    a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.572);
+    }
+    
+
+    .polaroid3 {
+        display: flex;
+        margin: 5px;
+        width: 50%;
+    }
+    
+
+    .photo2-4 {
+    
+        box-shadow: 3px 2px 2px #F2F2F2;
+        border-radius: 20px;
+        height: 185px;
+    
+    }
+    
+    .photo2-4 img {
+        width: 100%;
+        height: 119.5px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .photo2-5 {
+    
+        box-shadow: 3px 2px 2px #F2F2F2;
+        border-radius: 20px;
+        height: 185px;
+    
+    }
+    
+    .photo2-5 img {
+        width: 100%;
+        height: 112px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    
+    .polaroid2 > .photo2-4 {
+        margin-bottom: 15Px;
+    }
+
+    .container_p {
+        display: flex;
+        height: 40%;
+        width: 100%;
+    }
+
+
